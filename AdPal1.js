@@ -10,13 +10,6 @@
 hostname=tcb-api.tencentcloudapi.com
 
 ***********************************/
-
-console.log('$response',$response);
-
-
-console.log('body',$response.body);
-
-
 var obj = JSON.parse($response.body); 
 
 if(obj.data){
